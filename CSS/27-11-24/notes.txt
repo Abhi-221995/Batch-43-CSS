@@ -1,0 +1,19 @@
+HTML : --
+What is markup and hypertext?
+Difference between Figure tag and aside tag?
+Difference between div and span
+What are self closing tags
+Difference between block and inline
+What are semantic tags?
+Difference between tags and elements?
+Difference between class and Ids?
+What are Attributes?
+What is main reason or main advantage of label tag?
+Difference between em and strong? why should you choose them over B and i tags?
+What is the use of action attribute in form tag?
+
+CSS :-
+
+What is CSS and its version?
+Explain CSS box model?
+What is the difference between margin and padding.?

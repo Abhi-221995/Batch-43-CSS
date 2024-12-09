@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* .position {
+  width: 600px;
+  height: 300px;
+  border: 1px solid black;
+  background-color: blueviolet;
+  
+
+  /* position: static; */
+/* position: relative; */
+/* top: 100px; */
+/* right: 0; */
+/* top: 30px;
+  left: 30px; */
+/* } */
+
+.child {
+  width: 100%;
+  height: 50px;
+
+  background-color: bisque;
+  border: 1px solid red;
+  position: sticky;
+  top: 10px;
+  /* bottom: 0; */
+
+  /* right: 0; */
+  /* bottom: 0; */
+}
+
+.chatbot {
+  width: 100px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  /* border-top: 5px; */
+  text-align: center;
+  /* padding: 5px; */
+  border-radius: 5px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

@@ -1,0 +1,19 @@
+/* Syntax :  */
+
+/* selector {
+  property: value;
+} */
+
+h3 {
+  color: green;
+  background-color: blanchedalmond;
+}
+
+
+/* DRY - Do not repeat yourself */
+/* h3{
+    color: green;
+}
+h3{
+    background-color: blanchedalmond;
+} */

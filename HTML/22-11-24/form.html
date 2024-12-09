@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Employee Details</legend>
+
+        <form>
+            <!-- for and id value should same always  -->
+            <label for="name">Name :</label>
+            <input type="text" name="FullName" id="name"> <br> <br>
+
+
+            <label for="mobile">Mobile : </label>
+            <input type="tel" name="Mobile" id="mobile"> <br> <br>
+
+
+            <label for="email">Email:</label>
+            <input type="email" name="Email" id="email"> <br> <br>
+
+            <label for="">Address</label>
+            <textarea name="" id="" cols="20" rows="5"></textarea> <br> <br>
+
+
+            <!-- In radio button you have to keep the value of name same then only you will be able to select any one option, value has to select in case of radio and checkbox -->
+            <label for="gender">Gender</label>
+            <input type="radio" name="Gender" id="gender" value="Male">Male
+            <input type="radio" name="Gender" id="gender" value="Female"> Female
+            <input type="radio" name="Gender" id="gender" value="Non-Binary"> Non-Binary
+            <br> <br>
+
+
+            <!-- checkbox  -->
+            <label for="Language">Language</label>
+            <input type="checkbox" name="language" id="Language" value="English"> English
+            <input type="checkbox" name="language" id="Language" value="Hindi"> Hindi
+            <input type="checkbox" name="language" id="Language" value="Telugu"> Telugu
+
+            <br> <br>
+
+            <label for="password">Password</label>
+            <input type="password" name="Password" id="password">
+
+
+            <label for="course">Course</label>
+            <select name="course" id="course">
+                <option value="select an option">Select Something</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JS">JS</option>
+                <option value="React">React</option>
+            </select>
+
+
+            <label for="avatar">Choose a profile picture:</label>
+            <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+
+            <!-- <input type="submit">
+            <input type="reset">  -->
+
+            <button type="submit">Submit Now</button>
+            <button type="reset">Reset</button>
+
+        </form>
+    </fieldset>
+</body>
+
+</html>

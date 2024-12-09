@@ -1,0 +1,28 @@
+/* html {
+  font-size: 16px;
+} */
+
+body {
+  background-color: black;
+}
+
+#child {
+  border: 1px solid red;
+  width: 200px;
+  height: 100px;
+  background-color: burlywood;
+  text-align: center;
+  /* padding-top: 50px; */
+  /* align-items: center; */
+  /* Neumorphism Effect  */
+  box-shadow: 8px 8px 16px #d1cdc7, -8px -8px 16px #ffffff;
+}
+
+span {
+  /* margin-top: 50px; */
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 2em;
+  /* text-shadow: 2px 2px #fff, -2px 5px #000; */
+  text-shadow: 5px 5px 10px rgba(0, 255, 0, 0.8) , 0 0 20px rgba(0, 255, 0, 0.6);
+}

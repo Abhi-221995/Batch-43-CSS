@@ -1,0 +1,55 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+h1 {
+  color: rgb(189, 192, 218);
+}
+
+#third {
+  color: rgb(117, 138, 201);
+  font-size: 150px;
+  background-color: antiquewhite;
+}
+
+/* Font Properties  */
+.second {
+  color: blue;
+  /* font-size: xx-large; */
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 100;
+  font-style: oblique;
+  font-variant: small-caps; */
+
+  /* SHORTHAND */
+  font: 100px Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+p {
+  font: 30px Cursive;
+  line-height: 100px;
+}
+
+input[type="text"] {
+  color: blue;
+}
+
+div,
+span,
+p {
+  color: chocolate;
+  background-color: aqua;
+  font-size: 25px;
+}
+
+/* 1. Create a two paragraph tags, give a class to first and id to the second paragraph. Set its color to blue and background color to "Aqua" using CSS */
+/* 2. Create a div with element with some text inside it. Set its background color to light gray  */
+/* 3. Create a heading with the text "Welcome to CSS
+    -> Set the font family to ARIAL
+    -> Make the text bold
+    -> Set the font size to 25px */
+
+/* Create one form that contain name input, password input, 3 radio buttons(HTML,CSS,JS), 3 checkboxes(cricket, football, hockey) and one submit button . When you click on that button the value should be shown in the URL    */
+
+/* Create one nested list that first contains order list then unorderlist(disc) then again one order list(roman number)/ */

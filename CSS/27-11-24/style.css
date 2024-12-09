@@ -1,0 +1,59 @@
+#box {
+  background-color: pink;
+}
+
+.heading {
+  color: red;
+}
+
+button {
+  /* top right bottom left  */
+  /* padding: 10px 50px 15px 0;
+  margin: 10px 15px 20px 25px; */
+  padding: 10px 30px;
+  margin: 30px 20px;
+  margin-top: 10px;
+  padding-left: 30px;
+
+  border-left: 1px solid red;
+  border-right: 5px dashed black;
+  border-top: 10px dotted blue;
+  border-bottom: 7px groove green;
+
+  /* shortHand  */
+  /* border: 1px solid red; */
+  /* border-width: 5px; */
+  /* border-color: blue; */
+  /* solid, dashed, dotted, groove, double and none */
+  border-style: none;
+}
+
+/* p { */
+/* text-align: right; */
+/* text-align: left; */
+/* text-align: center; */
+
+/* text-decoration: overline; */
+/* } */
+
+
+
+h2 {
+  /* text-decoration: overline; */
+  text-decoration: line-through;
+  /* text-decoration: underline; */
+  text-shadow: 2px 2px red;
+  /* text-shadow: -5px -5px red; */
+  text-align: center;
+}
+
+#newBox {
+  width: 500px;
+  height: 405px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+p {
+    text-align: center;
+}

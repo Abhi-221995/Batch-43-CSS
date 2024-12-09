@@ -1,0 +1,19 @@
+.content {
+  /* CSS Units : px,%, cm, inch, vh, vw  */
+  width: 90%;
+  margin: 0 auto;
+}
+
+.left {
+  float: left;
+  width: 300px;
+  margin: 10px;
+}
+
+.right {
+  float: right;
+  width: 300px;
+  margin: 10px;
+}
+
+

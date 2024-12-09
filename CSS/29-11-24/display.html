@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            background-color: chartreuse;
+            /* display: inline-block; */
+            width: 500px;
+            height: 300px;
+            padding: 30px;
+            margin: 30px;
+            border: 2px solid black;
+        }
+
+        .span1 {
+            background-color: beige;
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            padding: 30px;
+        }
+
+        .span2 {
+            background-color: red;
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            padding: 30px;
+            margin: 30px;
+
+        }
+
+        .none {
+            display: none;
+        }
+
+        .hidden{
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>This is a block Element</div>
+    <div class="none">This is another block</div>
+    <div class="hidden">Visibility Hidden</div>
+    <span class="span1">I am a good <p>boy</p></span>
+
+</body>
+
+</html>
