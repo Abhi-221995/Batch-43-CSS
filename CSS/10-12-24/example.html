@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            border: 1px solid red;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .items {
+            border: 1px solid grey;
+            background-color: blueviolet;
+            color: #fff;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        #item1 {
+            /* grid-column: 1/3; */
+            grid-column: 1/-1;
+
+        }
+
+        #item2 {
+            grid-row: 2/4;
+        }
+
+        #item5 {
+            grid-column: 1/-1;
+        }
+
+        #item6 {
+            grid-column: 1/-1;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="items" id="item1">Header</div>
+        <div class="items" id="item2">Article</div>
+        <div class="items" id="item3">Text-1</div>
+        <div class="items" id="item4">Text-2</div>
+        <div class="items" id="item5">Main</div>
+        <div class="items" id="item6">Footer</div>
+    </div>
+
+</body>
+
+</html>

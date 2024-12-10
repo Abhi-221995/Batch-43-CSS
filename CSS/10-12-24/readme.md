@@ -1,3 +1,43 @@
+# Box Sizing in CSS
+
+The `box-sizing` property defines how the total width and height of an element are calculated, including or excluding padding and borders.
+
+## Values of `box-sizing`
+
+| Value         | Description                                                                                               |
+| ------------- | --------------------------------------------------------------------------------------------------------- |
+| `content-box` | Default value. The width and height properties include only the content. Padding and border are excluded. |
+| `border-box`  | The width and height properties include content, padding, and border.                                     |
+| `inherit`     | Inherits the `box-sizing` value from its parent element.                                                  |
+
+## Why Use `box-sizing: border-box`?
+
+Using `box-sizing: border-box` makes layout calculations easier because padding and borders are included in the element's total width and height. This ensures that the specified dimensions are respected without requiring manual adjustments.
+
+## Example
+
+```css
+/* Default behavior: content-box */
+.element-content-box {
+  width: 200px;
+  padding: 10px;
+  border: 5px solid black;
+  box-sizing: content-box;
+}
+
+/* Better behavior: border-box */
+.element-border-box {
+  width: 200px;
+  padding: 10px;
+  border: 5px solid black;
+  box-sizing: border-box;
+}
+
+
+
+---------------------------------------------------------------------------------------------------------------
+
+
 # CSS Grid Properties
 
 ## Container Properties
@@ -23,3 +63,4 @@
 | `grid-area`    | Places an item into a named area defined by `grid-template-areas`.            |
 | `justify-self` | Aligns a single grid item horizontally.                                       |
 | `align-self`   | Aligns a single grid item vertically.                                         |
+```

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing</title>
+
+    <style>
+        div {
+            border: 50px solid;
+            width: 500px;
+            padding: 100px;
+            height: 500px;
+            /* DRY - Dont Repeat yourself */
+        }
+
+        #one {
+            box-sizing: content-box;
+        }
+
+        #second {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div id="one">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iusto adipisci veniam. Officia error quas
+        nulla expedita excepturi tempora rerum? Harum aspernatur ducimus autem corrupti et totam quibusdam voluptates
+        molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sapiente blanditiis dolores
+        quisquam odio! Qui, dignissimos nulla amet explicabo quibusdam labore perferendis iste in nihil quisquam odit
+        dolore sunt asperiores aut ullam quia possimus itaque totam quae expedita eaque velit repellat illo nam? Quaerat
+        expedita rem nesciunt ullam consectetur quasi.
+    </div>
+    <div id="second">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iusto adipisci veniam. Officia error quas
+        nulla expedita excepturi tempora rerum? Harum aspernatur ducimus autem corrupti et totam quibusdam voluptates
+        molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sapiente blanditiis dolores
+        quisquam odio! Qui, dignissimos nulla amet explicabo quibusdam labore perferendis iste in nihil quisquam odit
+        dolore sunt asperiores aut ullam quia possimus itaque totam quae expedita eaque velit repellat illo nam? Quaerat
+        expedita rem nesciunt ullam consectetur quasi.
+    </div>
+
+
+
+</body>
+
+</html>
