@@ -1,0 +1,81 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+.primary-btn:link {
+  color: red;
+}
+
+.primary-btn:visited {
+  color: orange;
+}
+
+.primary-btn:active {
+  padding: 5px;
+  border: 2px solid;
+  /* background-color: bisque; */
+  color: black;
+}
+
+.primary-btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: red;
+  padding: 2px;
+  border: 1px solid blue;
+  border-radius: 3px;
+}
+
+/* ul li:first-child {
+  background-color: gray;
+}
+
+ul li:last-child {
+  background-color: red;
+} */
+
+/* :nth-child( ) */
+/* (an+b) */
+
+/* ul li:nth-child(2n + 1) {
+  background-color: burlywood;
+} */
+
+/* Pseudo Elements  */
+
+h2::first-letter {
+  background-color: red;
+  color: white;
+  padding: 3px;
+  font-size: 20px;
+}
+
+/* p::first-line {
+  background-color: yellowgreen;
+} */
+
+p::selection {
+  background-color: black;
+  color: red;
+}
+
+h3::before {
+  content: "Before";
+  background-color: blue;
+  color: white;
+}
+
+h3::after {
+  content: "Red Color";
+  background-color: red;
+  color: white;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label::after {
+  content: "*";
+  color: red;
+}
