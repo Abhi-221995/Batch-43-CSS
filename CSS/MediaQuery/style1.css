@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo-app-container {
+  /* width: 100%;
+    height: 100vh; */
+  display: flex;
+  flex-direction: row;
+  padding-left: 120px;
+  padding-right: 120px;
+  flex-wrap: wrap;
+}
+
+.blur-content {
+  position: relative;
+
+  opacity: 0.1;
+}
+
+.box {
+  border: 1px solid red;
+  width: calc(100% / 5);
+  margin: 20px 20px; /* width: 200px; */
+
+  height: 200px;
+  background-color: rgb(50, 183, 183);
+}
+
+.popup {
+  width: 300px;
+  height: 100px;
+  background-color: bisque;
+  border: 1px solid black;
+}
+
+.popup {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  z-index: 1;
+}
+
+@media screen and (max-width: 700px) {
+  .todo-app-container {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .box {
+    width: 80%;
+    height: 280px;
+  }
+}

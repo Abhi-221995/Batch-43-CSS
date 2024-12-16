@@ -1,0 +1,48 @@
+/* Break Points  */
+/* Mobile : 328px to 500px */
+/* Tablets :  */
+
+.container {
+  height: 100vh;
+
+  background-color: bisque;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+}
+
+.box {
+  width: calc(100% / 3);
+  height: 200px;
+  background-color: black;
+  border: 1px solid red;
+}
+
+/* Media query should be applied at the end of the style.css always */
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  .box {
+    width: 100%;
+    background-color: chocolate;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+  }
+  .box {
+    width: 100%;
+    background-color: rgb(220, 210, 202);
+    margin-top: 10px;
+  }
+}
+
+@media screen and (orientation: landscape){
+    
+}
