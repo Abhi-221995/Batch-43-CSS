@@ -1,0 +1,52 @@
+    [1:23 pm, 17/12/2024] Sharat: Here are 7 practical questions to help students apply their knowledge of CSS Transitions and Transforms:
+
+1. Hover Effect with Transition
+
+Create a button that changes its background color from blue to green and increases its width smoothly when hovered. Ensure the transition takes 0.5 seconds.
+
+2. Card Flip Animation
+
+Create a card element with two sides (front and back). Use the transform: rotateY() property to flip the card to reveal its back when hovered.
+
+3. Scaling an Image
+
+Create an image that grows 1.2x in size with a smooth zoom effect when hovered. Add a 1-second delay before the effect starts.
+
+4. Rotating an Element
+
+Create a square div that rotates 180 degrees on hover. Use a transition to make the rotation smooth and visually appealing.
+
+5. Sliding Text…
+[1:24 pm, 17/12/2024] Sharat: Here are 7 practical questions to help you apply your knowledge of CSS Transitions and Transforms:
+
+1. Hover Effect with Transition
+
+Create a button that changes its background color from blue to green and increases its width smoothly when hovered. Ensure the transition takes 0.5 seconds.
+
+2. Card Flip Animation
+
+Create a card element with two sides (front and back). Use the transform: rotateY() property to flip the card to reveal its back when hovered.
+
+3. Scaling an Image
+
+Create an image that grows 1.2x in size with a smooth zoom effect when hovered. Add a 1-second delay before the effect starts.
+
+4. Rotating an Element
+
+Create a square div that rotates 180 degrees on hover. Use a transition to make the rotation smooth and visually appealing.
+
+5. Sliding Text
+
+Create a heading that moves 50px to the right when hovered. Ensure the transition is smooth and lasts for 0.3 seconds.
+
+6. Transform Origin Experiment
+
+Create a circular element and apply the transform: rotate(45deg) property. Change the transform-origin to observe how the rotation behaves. Write down your observations.
+
+7. Combine Transitions and Transforms
+
+Create a button that:
+	•	Scales up to 1.5x its size.
+	•	Rotates 45 degrees.
+	•	Changes its background color.
+All these effects should occur simultaneously and smoothly when hovered.

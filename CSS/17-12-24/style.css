@@ -1,0 +1,24 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin: auto;
+  transform: translateY(70%);
+}
+
+.box1:hover {
+  border-radius: 50%;
+  /* transition: 2s; */
+  transition-duration: 1s;
+  transition-delay: 2s;
+}
+
+/* Create a circle  */
+
+/* How will center a div ? */
+/* position, flex and grid  */
