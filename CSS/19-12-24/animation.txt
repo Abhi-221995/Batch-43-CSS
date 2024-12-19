@@ -1,0 +1,16 @@
+Animation :
+
+CSS Animations allow elements on a webpage to transition form one style to another over a period of time. This can help enhance the uer experience by making a website more interactive and visually appealing...
+
+Core Concepts :
+1. Keyframes :
+This define the starting and ending points of an animation along with intermediate steps if needed. Example : @Keyframes
+
+2. Animation Properties :
+1. animation-name : Name of the Keyframes
+2. animation-duration : Time taken to complete one cycle
+3. animation-timing-function: specifies the speed.(ease, linear etc.)
+4. animation-delay : delay before animation starts.
+5. animation-iteration-count : number of times the animation repeats.
+6. animation-direction : Direction of the animation (normal, reverse, alternate)
+7. animation-fill-mode : Style applied when the animation is not playing (before or after..)

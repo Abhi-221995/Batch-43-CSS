@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic Example of Animation  */
+/* .fade-in {
+  animation: fadeIn 5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+} */
+
+/* Rotating Ball  */
+
+.element {
+  width: 200px;
+  height: 200px;
+  color: white;
+  background-color: rgb(142, 88, 83);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  /* animation-name: spin;
+  animation-duration: 2s;
+  animation-timing-function: linear; */
+  /* animation-delay: 2s; */
+  /* animation-iteration-count: infinite;
+  animation-direction: alternate; */
+  /* animation-fill-mode: forwards; */
+  /* animation-play-state: paused; */
+
+  animation: spin 2s linear infinite alternate paused;
+}
+
+.element:hover {
+  animation-play-state: running;
+}
+
+@keyframes spin {
+  0% {
+  }
+  50% {
+    /* transform: scale(2); */
+    scale: 2;
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+    border-radius: 50%;
+  }
+}
